@@ -1,0 +1,21 @@
+{
+  "name": "Мой бюджет",
+  "short_name": "Бюджет",
+  "description": "Персональный offline-first финансовый помощник",
+  "lang": "ru",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone"],
+  "background_color": "#eef2ea",
+  "theme_color": "#183d2c",
+  "orientation": "portrait-primary",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Добавить расход", "short_name": "Расход", "url": "./?action=add&type=expense", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] },
+    { "name": "Добавить доход", "short_name": "Доход", "url": "./?action=add&type=income", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] }
+  ]
+}
