@@ -1,5 +1,5 @@
-// v62 apple-green build
-const CACHE = "moi-budget-v62";
+// v63 ios27-spacing-focus build
+const CACHE = "moi-budget-v63";
 const BASE = new URL("./", self.location).pathname;
 const SHELL = [BASE, `${BASE}manifest.webmanifest`, `${BASE}favicon.svg`, `${BASE}apple-touch-icon.png`, `${BASE}icon-192.png`, `${BASE}icon-512.png`];
 
