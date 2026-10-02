@@ -1,5 +1,5 @@
-// v59 calm-dashboard build
-const CACHE = "moi-budget-v59";
+// v60 unified-dashboard build
+const CACHE = "moi-budget-v60";
 const BASE = new URL("./", self.location).pathname;
 const SHELL = [BASE, `${BASE}manifest.webmanifest`, `${BASE}favicon.svg`, `${BASE}apple-touch-icon.png`, `${BASE}icon-192.png`, `${BASE}icon-512.png`];
 
