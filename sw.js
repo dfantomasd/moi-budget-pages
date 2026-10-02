@@ -1,5 +1,5 @@
-// v60 unified-dashboard build
-const CACHE = "moi-budget-v60";
+// v61 iphone-readability build
+const CACHE = "moi-budget-v61";
 const BASE = new URL("./", self.location).pathname;
 const SHELL = [BASE, `${BASE}manifest.webmanifest`, `${BASE}favicon.svg`, `${BASE}apple-touch-icon.png`, `${BASE}icon-192.png`, `${BASE}icon-512.png`];
 
