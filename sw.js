@@ -1,5 +1,5 @@
-// v58 period-plan build
-const CACHE = "moi-budget-v58";
+// v59 calm-dashboard build
+const CACHE = "moi-budget-v59";
 const BASE = new URL("./", self.location).pathname;
 const SHELL = [BASE, `${BASE}manifest.webmanifest`, `${BASE}favicon.svg`, `${BASE}apple-touch-icon.png`, `${BASE}icon-192.png`, `${BASE}icon-512.png`];
 
