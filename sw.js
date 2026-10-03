@@ -1,5 +1,5 @@
-// v72 savings calculation breakdown
-const CACHE = "moi-budget-v72";
+// v73 recurring payments section
+const CACHE = "moi-budget-v73";
 const BASE = new URL("./", self.location).pathname;
 const SHELL = [BASE, `${BASE}manifest.webmanifest`, `${BASE}favicon-v69.png`, `${BASE}apple-touch-icon-v69.png`, `${BASE}icon-192-v69.png`, `${BASE}icon-512-v69.png`];
 
