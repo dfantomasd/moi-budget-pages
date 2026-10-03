@@ -1,5 +1,5 @@
-// v78 first due dates for newly added payments
-const CACHE = "moi-budget-v78";
+// v79 repairs first due dates saved by both affected releases
+const CACHE = "moi-budget-v79";
 const BASE = new URL("./", self.location).pathname;
 const SHELL = [BASE, `${BASE}manifest.webmanifest`, `${BASE}favicon-v69.png`, `${BASE}apple-touch-icon-v69.png`, `${BASE}icon-192-v69.png`, `${BASE}icon-512-v69.png`];
 
