@@ -1,5 +1,5 @@
-// v80 live tomorrow spending preview
-const CACHE = "moi-budget-v80";
+// v81 mandatory payments no longer need manual reserves
+const CACHE = "moi-budget-v81";
 const BASE = new URL("./", self.location).pathname;
 const SHELL = [BASE, `${BASE}manifest.webmanifest`, `${BASE}favicon-v69.png`, `${BASE}apple-touch-icon-v69.png`, `${BASE}icon-192-v69.png`, `${BASE}icon-512-v69.png`];
 
