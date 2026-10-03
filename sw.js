@@ -1,7 +1,7 @@
-// v81 mandatory payments no longer need manual reserves
-const CACHE = "moi-budget-v81";
+// v82 compact financial plan and refreshed installation icon
+const CACHE = "moi-budget-v82";
 const BASE = new URL("./", self.location).pathname;
-const SHELL = [BASE, `${BASE}manifest.webmanifest`, `${BASE}favicon-v69.png`, `${BASE}apple-touch-icon-v69.png`, `${BASE}icon-192-v69.png`, `${BASE}icon-512-v69.png`];
+const SHELL = [BASE, `${BASE}manifest.webmanifest`, `${BASE}favicon-v82.png`, `${BASE}apple-touch-icon-v82.png`, `${BASE}icon-192-v82.png`, `${BASE}icon-512-v82.png`];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
