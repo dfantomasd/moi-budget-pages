@@ -1,5 +1,5 @@
-// v71 configurable financial period
-const CACHE = "moi-budget-v71";
+// v72 savings calculation breakdown
+const CACHE = "moi-budget-v72";
 const BASE = new URL("./", self.location).pathname;
 const SHELL = [BASE, `${BASE}manifest.webmanifest`, `${BASE}favicon-v69.png`, `${BASE}apple-touch-icon-v69.png`, `${BASE}icon-192-v69.png`, `${BASE}icon-512-v69.png`];
 
