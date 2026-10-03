@@ -1,5 +1,5 @@
-// v83 mobile first-run layout and phone normalization
-const CACHE = "moi-budget-v83";
+// v84 opaque iOS status bar, simpler onboarding and visible version
+const CACHE = "moi-budget-v84";
 const BASE = new URL("./", self.location).pathname;
 const SHELL = [BASE, `${BASE}manifest.webmanifest`, `${BASE}favicon-v82.png`, `${BASE}apple-touch-icon-v82.png`, `${BASE}icon-192-v82.png`, `${BASE}icon-512-v82.png`];
 
