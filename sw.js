@@ -1,5 +1,5 @@
-// v74 first-run onboarding
-const CACHE = "moi-budget-v74";
+// v75 bank login and device pairing
+const CACHE = "moi-budget-v75";
 const BASE = new URL("./", self.location).pathname;
 const SHELL = [BASE, `${BASE}manifest.webmanifest`, `${BASE}favicon-v69.png`, `${BASE}apple-touch-icon-v69.png`, `${BASE}icon-192-v69.png`, `${BASE}icon-512-v69.png`];
 
