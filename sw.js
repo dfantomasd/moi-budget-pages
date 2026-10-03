@@ -1,5 +1,5 @@
-// v63 ios27-spacing-focus build
-const CACHE = "moi-budget-v63";
+// v64 free-always-on-bridge build
+const CACHE = "moi-budget-v64";
 const BASE = new URL("./", self.location).pathname;
 const SHELL = [BASE, `${BASE}manifest.webmanifest`, `${BASE}favicon.svg`, `${BASE}apple-touch-icon.png`, `${BASE}icon-192.png`, `${BASE}icon-512.png`];
 
