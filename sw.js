@@ -1,5 +1,5 @@
-// v70 Northflank connection screen
-const CACHE = "moi-budget-v70";
+// v71 configurable financial period
+const CACHE = "moi-budget-v71";
 const BASE = new URL("./", self.location).pathname;
 const SHELL = [BASE, `${BASE}manifest.webmanifest`, `${BASE}favicon-v69.png`, `${BASE}apple-touch-icon-v69.png`, `${BASE}icon-192-v69.png`, `${BASE}icon-512-v69.png`];
 
