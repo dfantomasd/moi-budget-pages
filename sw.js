@@ -1,5 +1,5 @@
-// v76 first-launch installation invitation
-const CACHE = "moi-budget-v76";
+// v77 budget reconciliation and first-run layout
+const CACHE = "moi-budget-v77";
 const BASE = new URL("./", self.location).pathname;
 const SHELL = [BASE, `${BASE}manifest.webmanifest`, `${BASE}favicon-v69.png`, `${BASE}apple-touch-icon-v69.png`, `${BASE}icon-192-v69.png`, `${BASE}icon-512-v69.png`];
 
