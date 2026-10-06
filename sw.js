@@ -1,7 +1,6 @@
-// v89 own-bank transfers excluded from income and spending
-const CACHE = "moi-budget-v89";
+const CACHE = "moi-budget-v40";
 const BASE = new URL("./", self.location).pathname;
-const SHELL = [BASE, `${BASE}rules.html`, `${BASE}manifest.webmanifest`, `${BASE}favicon-v82.png`, `${BASE}apple-touch-icon-v82.png`, `${BASE}icon-192-v82.png`, `${BASE}icon-512-v82.png`];
+const SHELL = [BASE, `${BASE}manifest.webmanifest`, `${BASE}favicon.svg`, `${BASE}apple-touch-icon.png`, `${BASE}icon-192.png`, `${BASE}icon-512.png`];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
