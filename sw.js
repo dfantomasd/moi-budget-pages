@@ -1,5 +1,5 @@
-// v90 refreshes the app shell after adding newly discovered bank deposits.
-const CACHE = "moi-budget-v90";
+// v91 refreshes the app shell after correcting income and savings classification.
+const CACHE = "moi-budget-v91";
 const BASE = new URL("./", self.location).pathname;
 const SHELL = [BASE, `${BASE}rules.html`, `${BASE}manifest.webmanifest`, `${BASE}favicon-v82.png`, `${BASE}apple-touch-icon-v82.png`, `${BASE}icon-192-v82.png`, `${BASE}icon-512-v82.png`];
 
