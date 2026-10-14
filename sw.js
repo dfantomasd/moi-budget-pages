@@ -1,5 +1,5 @@
-// v97 applies the saved shared-payment correction and cash reserve.
-const CACHE = "moi-budget-v97";
+// v98 paces spending to the next income date.
+const CACHE = "moi-budget-v98";
 const BASE = new URL("./", self.location).pathname;
 const SHELL = [BASE, `${BASE}rules.html`, `${BASE}manifest.webmanifest`, `${BASE}favicon-v82.png`, `${BASE}apple-touch-icon-v82.png`, `${BASE}icon-192-v82.png`, `${BASE}icon-512-v82.png`];
 
