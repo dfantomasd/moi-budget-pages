@@ -1,5 +1,5 @@
-// v91 refreshes the app shell after correcting income and savings classification.
-const CACHE = "moi-budget-v91";
+// v92 explains a zero daily limit when commitments exceed period income.
+const CACHE = "moi-budget-v92";
 const BASE = new URL("./", self.location).pathname;
 const SHELL = [BASE, `${BASE}rules.html`, `${BASE}manifest.webmanifest`, `${BASE}favicon-v82.png`, `${BASE}apple-touch-icon-v82.png`, `${BASE}icon-192-v82.png`, `${BASE}icon-512-v82.png`];
 
