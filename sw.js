@@ -1,5 +1,5 @@
-// v93 adjusts the savings target to a feasible period plan.
-const CACHE = "moi-budget-v93";
+// v94 supports future contributions for shared payments.
+const CACHE = "moi-budget-v94";
 const BASE = new URL("./", self.location).pathname;
 const SHELL = [BASE, `${BASE}rules.html`, `${BASE}manifest.webmanifest`, `${BASE}favicon-v82.png`, `${BASE}apple-touch-icon-v82.png`, `${BASE}icon-192-v82.png`, `${BASE}icon-512-v82.png`];
 
