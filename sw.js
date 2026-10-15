@@ -1,5 +1,5 @@
 // v99 keeps saves ordered and surfaces storage failures.
-const CACHE = "moi-budget-v119";
+const CACHE = "moi-budget-v120";
 const BASE = new URL("./", self.location).pathname;
 const SHELL = [BASE, `${BASE}rules.html`, `${BASE}manifest.webmanifest`, `${BASE}favicon-v82.png`, `${BASE}apple-touch-icon-v82.png`, `${BASE}icon-192-v82.png`, `${BASE}icon-512-v82.png`];
 
